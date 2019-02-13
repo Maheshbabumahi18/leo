@@ -1,0 +1,30 @@
+
+div p
+{
+font-size:50px;
+font-family:times new roman;
+letter-spacing:1px;
+color:blue;
+font-style:italic;
+font-weight:bolder;
+word-spacing:10px;
+text-decoration:underline;
+}
+#p
+{
+font-weight:100;
+}
+p.test
+{
+text-size:150;
+text-transform:uppercase;
+text-shadow:4px 4px 6px red;
+color:green;
+}
+body
+{
+background-image:url("lappi.jpg");
+border:2px solid red;
+width:150px;
+}
+

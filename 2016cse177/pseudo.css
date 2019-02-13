@@ -1,0 +1,41 @@
+div.background {
+background: url(lappi.jpg) repeat;
+border: 2px solid black;
+}
+div.transbox {
+margin: 30px;
+background-color: white;
+border: 1px solid red;
+opacity: 0.4;
+}
+div.transbox p {
+margin: 5%;
+font-weight: bold;
+color: #00000;
+}
+::selection {
+color : yellow;
+background : blue;
+}
+
+
+
+
+.p1::first-letter
+{
+color:red;
+background-color:black;
+}
+.p3::first-line
+{
+font-family:times new roman;
+}
+.p2::before
+{
+content:url(lappi.jpg);
+}
+::selection
+{
+background-color:yellow;
+color:red;
+}

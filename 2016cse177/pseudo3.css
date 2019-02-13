@@ -1,0 +1,18 @@
+.p1::first-letter
+{
+color:red;
+background-color:black;
+}
+.p3::first-line
+{
+font-family:times new roman;
+}
+.p2::before
+{
+content:url(lappi.jpg);
+}
+::selection
+{
+background-color:yellow;
+color:red;
+}
